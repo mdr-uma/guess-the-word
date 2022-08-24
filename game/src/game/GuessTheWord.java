@@ -14,4 +14,12 @@ public class GuessTheWord {
 	void showWord() {
 		System.out.println("showWord");
 	}
+	
+	void getInput() {
+		System.out.println("getInput");
+	}
+	
+	void checkInput() {
+		System.out.println("checkInput");
+	}
 }
