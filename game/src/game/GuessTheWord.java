@@ -10,4 +10,8 @@ public class GuessTheWord {
 			checkInput();
 		}while(play);
 	}
+	
+	void showWord() {
+		System.out.println("showWord");
+	}
 }
