@@ -1,7 +1,8 @@
 package game;
 
 public class GuessTheWord {
-	private boolean play = true;
+	private boolean play = false;
+	private Words randomWord = new Words();
 	
 	public void start() {
 		do {
@@ -12,7 +13,7 @@ public class GuessTheWord {
 	}
 	
 	void showWord() {
-		System.out.println("showWord");
+		System.out.println(randomWord);
 	}
 	
 	void getInput() {
