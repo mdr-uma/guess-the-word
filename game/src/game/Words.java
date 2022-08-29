@@ -3,8 +3,13 @@ package game;
 public class Words {
 	private String[] randomWords = {"animals", "happiness", "indefinite", "steady", "birthday", "extreme", "rights", "ceremony", "independence",
 									"beneath", "information", "students", "employee"};
+	private String selectedWord;
+	
+	public Words() {
+		selectedWord = randomWords[3];
+	}
 	
 	public String toString() {
-		return randomWords[1];
+		return selectedWord;
 	}
 }
