@@ -7,9 +7,11 @@ public class Words {
 									"beneath", "information", "students", "employee"};
 	private String selectedWord;
 	private Random random = new Random();
+	private char[] letters;
 	
 	public Words() {
 		selectedWord = randomWords[random.nextInt(randomWords.length)];
+		letters = new char[selectedWord.length()];
 	}
 	
 	public String toString() {
