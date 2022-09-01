@@ -15,6 +15,7 @@ public class Words {
 	}
 	
 	public String toString() {
+		StringBuilder text = new StringBuilder();
 		return selectedWord;
 	}
 }
