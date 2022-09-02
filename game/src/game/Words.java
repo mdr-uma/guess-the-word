@@ -16,6 +16,17 @@ public class Words {
 	
 	public String toString() {
 		StringBuilder text = new StringBuilder();
+		
+		for(char letter: letters) {
+			if(letter == '\u0000') {
+				text.append('-');
+			}
+			else {
+				text.append(letter);
+			}
+			text.append(' ');
+		}
+		
 		return selectedWord;
 	}
 }
