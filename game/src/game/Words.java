@@ -27,6 +27,6 @@ public class Words {
 			text.append(' ');
 		}
 		
-		return selectedWord;
+		return text.toString();
 	}
 }
